@@ -1170,7 +1170,8 @@
       "scope": [
         "source.cmake variable",
         "source.cmake keyword.preprocessor.generator-expression",
-        "source.cmake storage.source"
+        "source.cmake storage.source",
+        "source.cmake string.unquoted"
       ],
       "settings": {
         "foreground": "#bcbec4"
@@ -1200,6 +1201,7 @@
         "source.cpp keyword.operator.new",
         "source.cpp keyword.operator.sizeof",
         "source.c keyword.operator.sizeof",
+        "source.cpp keyword.operator.cast"      // clangd + better.cpp-syntax
       ],
       "settings": {
         "foreground": "#cf8e6d"
@@ -1972,6 +1974,13 @@
     "enumMember": "#c77dbb",
 
     // #
+    // #               ASM
+    // # 
+    "function.definition:asm": "#56a8f5",
+    "variable.readonly.static:asm": "#c77dbb",
+    "type.defaultLibrary:asm": "#b5b6e3",
+
+    // #
     // #               CMAKE
     // # 
     "type:cmake": "#cf8e6d",
@@ -2014,6 +2023,8 @@
     "variable.classScope:cpp": "#9373a5",                           // clangd + better.cpp-syntax
     "typeParameter:cpp": "#b9Bcd1",                                         // clangd + better.cpp-syntax
     "typeParameter.readonly:cpp": "#c77dbb",                                // clangd + better.cpp-syntax
+    "type.deduced:cpp": "#cf8e6d",                                           // clangd + better.cpp-syntax
+    "method.declaration:cpp": "#56a8f5",                        // clangd + better.cpp-syntax
 
     // #
     // #               C#

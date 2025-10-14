@@ -1170,7 +1170,8 @@
       "scope": [
         "source.cmake variable",
         "source.cmake keyword.preprocessor.generator-expression",
-        "source.cmake storage.source"
+        "source.cmake storage.source",
+        "source.cmake string.unquoted"
       ],
       "settings": {
         "foreground": "--color-foreground"
@@ -1200,6 +1201,7 @@
         "source.cpp keyword.operator.new",
         "source.cpp keyword.operator.sizeof",
         "source.c keyword.operator.sizeof",
+        "source.cpp keyword.operator.cast"      // clangd + better.cpp-syntax
       ],
       "settings": {
         "foreground": "--color-keyword"
@@ -1972,6 +1974,13 @@
     "enumMember": "--color-constant",
 
     // #
+    // #               ASM
+    // # 
+    "function.definition:asm": "--color-function-declaration",
+    "variable.readonly.static:asm": "--color-constant",
+    "type.defaultLibrary:asm": "--color-cpp-type",
+
+    // #
     // #               CMAKE
     // # 
     "type:cmake": "--color-keyword",
@@ -2014,6 +2023,8 @@
     "variable.classScope:cpp": "--color-cpp-struct-field",                           // clangd + better.cpp-syntax
     "typeParameter:cpp": "--color-cpp-defs",                                         // clangd + better.cpp-syntax
     "typeParameter.readonly:cpp": "--color-constant",                                // clangd + better.cpp-syntax
+    "type.deduced:cpp": "--color-keyword",                                           // clangd + better.cpp-syntax
+    "method.declaration:cpp": "--color-function-declaration",                        // clangd + better.cpp-syntax
 
     // #
     // #               C#
