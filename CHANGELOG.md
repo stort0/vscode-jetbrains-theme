@@ -1,5 +1,22 @@
 # Changelog
 
+## [Release 1.10.0](https://github.com/Storterald/Jetbrains-Themes/releases/tag/1.10.0)
+
+### New Features
+
+ - Added `Java` support.
+ - New `icon` colors.
+ - `debug` token colors.
+
+### Changes
+
+ - Removed requirement for `XML` extension.
+ - Improved `C++` colors with `clangd`.
+
+### Fixes
+
+ - Minor fixes for `C++`, `CMake` and `ASM`
+
 ## [Release 1.9.0](https://github.com/Storterald/Jetbrains-Themes/releases/tag/1.9.0)
 
 ### New Features
