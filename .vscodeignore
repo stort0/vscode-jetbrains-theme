@@ -1,9 +1,6 @@
-# VS Code
+# IDEs
 .vscode/**
-
-# Jetbrains
 .idea/**
-node_modules/**
 
 # Git
 .gitignore
@@ -12,19 +9,8 @@ node_modules/**
 colors/**
 templates/**
 
-# Typescript
-src/**
-tsconfig.json
-
 # Build Files
-.version-getter/**
 build.py
-infos.py
-__pycache__
-
-# Product icons
-resources/product/**
-icons/product-icons-test.html
 
 # Other
 .tests/**

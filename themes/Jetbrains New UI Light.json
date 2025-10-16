@@ -2068,6 +2068,7 @@
     "function.declaration:python": "#00627a",
     "method.declaration:python": "#00627a",
     "builtinConstant.builtin:python": "#0033b3",
+    "variable.builtin.callable:python": "#000080",
     "variable.builtin:python": "#b200b2",
     "variable:python": "#000000",
     "builtinConstant:python": "#0033b3",

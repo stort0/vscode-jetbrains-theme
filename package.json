@@ -3,7 +3,7 @@
   "displayName": "Jetbrains Theme",
   "icon": "logo.png",
   "description": "Jetbrains color theme for VS Code",
-  "version": "--version",
+  "version": "1.10.0",
   "publisher": "Storterald",
   "engines": {
     "vscode": "^1.0.0"

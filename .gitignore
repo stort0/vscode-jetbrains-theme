@@ -1,18 +1,12 @@
-# VS Code
+# IDEs
 .vscode/
-
-# Jetbrains
 .idea/
-node_modules/
 
 # .vsix file
 *.vsix
 
 # Build Files
-.version-getter/
-build/
-__pycache__
 package-lock.json
 
-# Other
+# Tests
 .tests/
