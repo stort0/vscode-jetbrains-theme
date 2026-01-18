@@ -1718,6 +1718,10 @@
     // #
 
     // #
+    // #               RUST
+    // #
+
+    // #
     // #               SCSS
     // #
 
@@ -2083,6 +2087,26 @@
     "class.decorator:python": "#b3ae60",
     "function.decorator:python": "#b3ae60",
     "enumMember:python": "#bcbec4",
+
+    // #
+    // #               RUST
+    // #
+    "namespace.crateRoot:rust": "#8d91dc",
+    "enum:rust": "#a6bb77",
+    "struct:rust": "#a6bb77",
+    "enumMember:rust": "#8cc8d4",
+    "function:rust": "#56a8f5",
+    "selfKeyword:rust": "#d98eb3",
+    "const:rust": "#c77dbb",
+    "static:rust": "#9876aa",
+    "constParameter:rust": "#c77dbb",
+    "interface:rust": "#a6bb77",
+    "typeParameter:rust": "#20999d",
+    "property:rust": "#c77dbb",
+    "macro:rust": "#56a8f5",
+    "lifetime:rust": "#20999d",
+    "attributeBracket.attribute:rust": "#b3ae60",
+    "namespace.attribute:rust": "#b3ae60",
 
     // #
     // #               TYPESCRIPT

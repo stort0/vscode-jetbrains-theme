@@ -1718,6 +1718,10 @@
     // #
 
     // #
+    // #               RUST
+    // #
+
+    // #
     // #               SCSS
     // #
 
@@ -2083,6 +2087,26 @@
     "class.decorator:python": "--color-metadata",
     "function.decorator:python": "--color-metadata",
     "enumMember:python": "--color-foreground",
+
+    // #
+    // #               RUST
+    // #
+    "namespace.crateRoot:rust": "--color-rs-crate",
+    "enum:rust": "--color-rs-class",
+    "struct:rust": "--color-rs-class",
+    "enumMember:rust": "--color-rs-enum-variant",
+    "function:rust": "--color-rs-function",
+    "selfKeyword:rust": "--color-rs-self",
+    "const:rust": "--color-constant",
+    "static:rust": "--color-rs-static",
+    "constParameter:rust": "--color-constant",
+    "interface:rust": "--color-rs-class",
+    "typeParameter:rust": "--color-rs-typeparameter",
+    "property:rust": "--color-rs-property",
+    "macro:rust": "--color-rs-macro",
+    "lifetime:rust": "--color-rs-lifetime",
+    "attributeBracket.attribute:rust": "--color-rs-attribute",
+    "namespace.attribute:rust": "--color-rs-attribute",
 
     // #
     // #               TYPESCRIPT

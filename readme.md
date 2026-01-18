@@ -14,6 +14,7 @@ The extension provides *basic* colorization for **all** languages, but there are
  - `Assembly x86`: [*maziac.asm-code-lens*](https://marketplace.visualstudio.com/items?itemName=maziac.asm-code-lens)
  - `C#`: [*ms-dotnettools.csharp*](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
  - `Java`: [*vscjava.vscode-java-pack*](https://marketplace.visualstudio.com/items/?itemName=vscjava.vscode-java-pack)
+ - `Rust`: [*rust-lang.rust-analyzer*](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
 Some languages have a good enough tokenizer already **built in** vscode, so they do not rely on extension for a proper colorization. These languages are:
 

@@ -133,6 +133,19 @@ Python:
 Regex:
   --color-regex-escaped: "#174be6"
 
+Rust:
+  --color-rs-crate: "#835dda"
+  --color-rs-class: "#a04908"
+  --color-rs-enum-variant: "#0e7Fc5"
+  --color-rs-function: "#00627a"
+  --color-rs-self: "#1c5dfe"
+  --color-rs-static: "#871094"
+  --color-rs-typeparameter: "#007E8a"
+  --color-rs-property: "#871094"
+  --color-rs-macro: "#c27203"
+  --color-rs-lifetime: "#02906d"
+  --color-rs-attribute: "#9e880d"
+
 Shell:
   commands:
     --color-shell-command: "#0073bf"
