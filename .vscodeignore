@@ -13,4 +13,4 @@ templates/**
 build.py
 
 # Other
-.tests/**
+tests/**
