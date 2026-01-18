@@ -1,0 +1,21 @@
+{! Qute Syntax Highlighting Demo !}
+
+{#let answer = 42}{/let}
+
+{#if items.size > 1}
+    {items.size} items:
+
+    {#for item in items}
+        Item: {item.name ?: "No name"}
+        Price: {item.price}
+
+        {isAuthenticated(user, token) && item.popular == true ? 'SALE'}
+    {/for}
+{#else if items.size == 1}
+    Only one item available:
+
+    Item: {items[0].name ?: "No name"}
+    Price: {items[0].price}
+{#else}
+    No items
+{/if}

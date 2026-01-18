@@ -1320,49 +1320,39 @@
     // #               C#
     // # 
     {
-      "name": "C# text",
-      "scope": [
-        "source.cs meta.interpolation",
-        "source.cs punctuation.definition.interpolation"
-      ],
+      "name": "C# comment",
+      "scope": "source.cs punctuation.definition.comment",
       "settings": {
-        "foreground": "#000000"
+        "foreground": "#248700",
       }
     },
     {
-      "name": "C# keywords",
-      "scope": "source.cs punctuation.separator.hash",
+      "name": "C# xml comment attribute value",
+      "scope": "source.cs comment.block.documentation meta.tag string",
       "settings": {
-        "foreground": "#0033b3"
-      }
-    },
-    {
-      "name": "C# Functions",
-      "scope": "source.cs entity.name.function",
-      "settings": {
-        "foreground": "#00627a"
+        "foreground": "#8c6c41",
       }
     },
 
     // #
     // #               DATABASE
-    // # 
-    
+    // #
+
     // #
     // #               DEVICE TREE
-    // # 
-    
+    // #
+
     // #
     // #               DOCKERFILE
-    // # 
-    
+    // #
+
     // #
     // #               GROOVY
-    // # 
-    
+    // #
+
     // #
     // #               HTML
-    // # 
+    // #
     {
       "name": "HTML custom tags",
       "scope": [
@@ -1380,14 +1370,14 @@
         "foreground": "#174be6"
       }
     },
-    
+
     // #
     // #               HTTP
-    // # 
-    
+    // #
+
     // #
     // #               JAVA
-    // # 
+    // #
     {
       "name": "JAVA annotations",
       "scope": [
@@ -1439,7 +1429,7 @@
 
     // #
     // #               JAVASCRIPT
-    // # 
+    // #
     {
       "name": "JAVASCRIPT keywords",
       "scope": [
@@ -1526,14 +1516,14 @@
         "foreground": "#8c8c8c"
       }
     },
-    
+
     // #
     // #               JPA
-    // # 
+    // #
 
     // #
     // #               JSON
-    // # 
+    // #
     {
       "name": "JSON property names",
       "scope": "source.json support.type.property-name",
@@ -1551,67 +1541,67 @@
 
     // #
     // #               JSONPATH
-    // # 
+    // #
 
     // #
     // #               JSP
-    // # 
-    
+    // #
+
     // #
     // #               KOTLIN
-    // # 
-    
+    // #
+
     // #
     // #               LESS
-    // # 
-    
+    // #
+
     // #
     // #               LINKER SCRIPT
-    // # 
-    
+    // #
+
     // #
     // #               LOMBOK CONFIG
-    // # 
-    
+    // #
+
     // #
     // #               MAKE
-    // # 
-    
+    // #
+
     // #
     // #               MARKDOWN
-    // # 
-    
+    // #
+
     // #
     // #               MESON
-    // # 
-    
+    // #
+
     // #
     // #               MICRONAUT
-    // # 
-    
+    // #
+
     // #
     // #               MONGODB
-    // # 
-    
+    // #
+
     // #
     // #               POST CSS
-    // # 
-    
+    // #
+
     // #
     // #               PROPERTIES
-    // # 
-    
+    // #
+
     // #
     // #               PROTOBUF
-    // # 
-    
+    // #
+
     // #
     // #               PROTOBUF TEXT
-    // # 
-    
+    // #
+
     // #
     // #               PYTHON
-    // # 
+    // #
     {
       "name": "PYTHON keywords",
       "scope": "source.python keyword.operator.logical",
@@ -1670,14 +1660,14 @@
         "foreground": "#1750eb"
       }
     },
-    
+
     // #
     // #               QUTE
-    // # 
+    // #
 
     // #
     // #               REGEX
-    // # 
+    // #
     {
       "name": "REGEX keyword",
       "scope": [
@@ -1706,7 +1696,7 @@
       ],
       "settings": {
         "foreground": "#000000"
-      } 
+      }
     },
     {
       "name": "REGEX escaped",
@@ -1722,18 +1712,18 @@
         "foreground": "#067d17"
       }
     },
-    
+
     // #
     // #               RESTRUCTURED TEXT
-    // # 
-    
+    // #
+
     // #
     // #               SCSS
-    // # 
-    
+    // #
+
     // #
     // #               SHELL
-    // # 
+    // #
     {
       "name": "SHELL keywords",
       "scope": "source.shell punctuation.definition.variable",
@@ -1762,22 +1752,22 @@
         "foreground": "#000000"
       }
     },
-    
+
     // #
     // #               SPRING EL
-    // # 
-    
+    // #
+
     // #
     // #               SQL
-    // # 
-    
+    // #
+
     // #
     // #               TOML
-    // # 
-    
+    // #
+
     // #
     // #               TYPESCRIPT
-    // # 
+    // #
     {
       "name": "TYPESCRIPT keywords",
       "scope": [
@@ -1860,18 +1850,18 @@
         "foreground": "#8c8c8c"
       }
     },
-    
+
     // #
     // #               VELOCITY
-    // # 
-    
+    // #
+
     // #
     // #               XAML
-    // # 
-    
+    // #
+
     // #
     // #               XML
-    // # 
+    // #
     {
       "name": "XML tags",
       "scope": "text.xml keyword.other.doctype",
@@ -1896,18 +1886,18 @@
         "foreground": "#174be6"
       }
     },
-    
+
     // #
     // #               XPATH
-    // # 
-    
+    // #
+
     // #
     // #               XSLT
-    // # 
-    
+    // #
+
     // #
     // #               YAML
-    // # 
+    // #
     {
       "name": "YAML tags",
       "scope": "source.yaml entity.name.tag",
@@ -1968,21 +1958,21 @@
   "semanticTokenColors": {
     // #
     // #               GENERIC
-    // # 
+    // #
     "xmlDocCommentName": "#8c8c8c",
     "xmlDocCommentAttributeQuotes": "#000000",
     "enumMember": "#871094",
 
     // #
     // #               ASM
-    // # 
+    // #
     "function.definition:asm": "#00627a",
     "variable.readonly.static:asm": "#871094",
     "type.defaultLibrary:asm": "#008080",
 
     // #
     // #               CMAKE
-    // # 
+    // #
     "type:cmake": "#0033b3",
     "function:cmake": "#00627a",
     "enum:cmake": "#0033b3",
@@ -1990,7 +1980,7 @@
 
     // #
     // #               C
-    // # 
+    // #
     "type:c": "#008080",
     "macro:c": "#1f542e",
     "property:c": "#660e7a",
@@ -2001,7 +1991,7 @@
 
     // #
     // #               C++
-    // # 
+    // #
     "newOperator:cpp": "#0033b3",
     "type:cpp": "#008080",
     "templateType:cpp": "#008080",
@@ -2028,15 +2018,31 @@
 
     // #
     // #               C#
-    // # 
-    "property:csharp": "#871094",
-    "field:csharp": "#871094",
-    "method:csharp": "#00627a",
-    "constant:csharp": "#871094",
+    // #
+    "keyword:csharp": "#0F54d6",
+    "namespace:csharp": "#6b2fba",
+    "macro:csharp": "#0F54d6",
+    "class:csharp": "#6b2fba",
+    "interface:csharp": "#6b2fba",
+    "comment:csharp": "#248700",
+    "delegate:csharp": "#300073",
+    "event:csharp": "#ab2f6b",
+    "field:csharp": "#0093a1",
+    "property:csharp": "#0093a1",
+    "method:csharp": "#00855f",
+    "number:csharp": "#ab2f6b",
+    "variable:csharp": "#000000",
+    "parameter:csharp": "#000000",
+    "typeParameter:csharp": "#6b2fba",
+    "stringEscapeCharacter:csharp": "#941290",
+    "xmlDocCommentDelimiter:csharp": "#248700",
+    "xmlDocCommentText:csharp": "#248700",
+    "xmlDocCommentName:csharp": "#8Bc775",
+    "xmlDocCommentAttributeName:csharp": "#8Bc775",
 
     // #
     // #               JAVA
-    // # 
+    // #
     "method.declaration:java": "#00627a",
     "parameter.documentation:java": "#3d3d3d",
     "class:java": "#000000",
@@ -2052,7 +2058,7 @@
 
     // #
     // #               JAVASCRIPT
-    // # 
+    // #
     "function:javascript": "#00627a",
     "method:javascript": "#00627a",
     "property:javascript": "#871094",
@@ -2061,14 +2067,13 @@
 
     // #
     // #               PYTHON
-    // # 
+    // #
     "function.builtin:python": "#000080",
     "magicFunction.declaration:python": "#b200b2",
     "selfParameter:python": "#94558d",
     "function.declaration:python": "#00627a",
     "method.declaration:python": "#00627a",
     "builtinConstant.builtin:python": "#0033b3",
-    "variable.builtin.callable:python": "#000080",
     "variable.builtin:python": "#b200b2",
     "variable:python": "#000000",
     "builtinConstant:python": "#0033b3",

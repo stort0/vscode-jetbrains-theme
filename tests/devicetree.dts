@@ -1,0 +1,16 @@
+
+/dts-v1/;
+
+// comment
+/memreserve/ 0x800 0x010;
+
+/ {
+    property = "string", "escaped\"", <42>;
+    expression = <(8 * 4 % 5) (0 > 3 ? 8 : 9)>;
+
+    label: name@addr {};
+};
+
+&ref {
+    property = &{/path/ref};
+}; 

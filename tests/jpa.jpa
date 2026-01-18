@@ -1,0 +1,5 @@
+select object(o)
+  from Product o where o.id > 99999
+     and o.date > {d '2010-01-01'}
+     and UPPER(o.name) like 'S%'
+     and o.price > :minPrice

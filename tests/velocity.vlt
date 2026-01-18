@@ -1,0 +1,16 @@
+#* comment  
+  comment *#
+$reference.method('string').property
+## another comment
+#foreach($loopvar in [-4..77])
+  #set($var = {1:"double-quoted ${loopvar.toString()}", 2:false #fff})
+#{end}
+
+#{macro}(m1 $p1, $p2 $p3 $)
+  #if($p1 * ${p2} eq $p3)
+#templatetext
+  #{else}template text
+  #end
+#end
+#m1(4 5 7)
+#{m1}(8, 7, 6)

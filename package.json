@@ -1,8 +1,8 @@
 {
   "name": "vscode-jetbrains-theme",
-  "displayName": "Jetbrains Theme",
+  "displayName": "JetBrains Theme",
   "icon": "logo.png",
-  "description": "Jetbrains color theme for VS Code",
+  "description": "JetBrains color theme for VS Code",
   "version": "1.10.0",
   "publisher": "Storterald",
   "engines": {

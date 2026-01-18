@@ -1,0 +1,5 @@
+select *
+from amounts
+where id = :id
+  and refCount = :count
+  and quantity = :count;

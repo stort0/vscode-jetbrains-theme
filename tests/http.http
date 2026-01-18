@@ -1,0 +1,56 @@
+@variable_name = 123 variable value 456\u2026
+###
+# Line comments started with hash symbol are allowed
+// As well as comments started with two slashes
+POST http://127.0.0.1:8080/add-value
+Content-Type: application/json
+
+{
+  "name-key": "new-name",
+  "content-key": "content"
+}
+
+### First separator's content is treaded as request name
+### Other request separators can contain comments
+POST http://{{host}}:8080/update-value?id={{item-id}} HTTP/2
+Content-Type: application/json
+X-Request-Id: {{$random.integer(10, 1000)}}
+
+< ./input-file.json
+
+###
+# @name Also request name can be provided by 'name' doc comment
+GET http://example.site.com/show-value?name-key=new-name
+From: user@example.com
+Authentication: Bearer {{$auth.token("my-auth")}}
+
+>> myFolder/response.txt
+
+<> response-output-history.200.json
+
+###
+# There are another doc comments
+#@no-cookie-jar
+#@no-log
+POST http://127.0.0.1:8080/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="inputfile.txt"
+
+< ./real-file-to-upload.txt
+--WebAppBoundary
+
+###
+POST http://example.site.com/prove-equation
+Content-Type: application/x-www-form-urlencoded
+
+equation = 10%% %+ 12%% %= 22%%&
+proveMethod=full+substitutor
+
+###
+GET http://{{host}}/get-response
+
+> {%
+    client.log("Hello, World")
+%}

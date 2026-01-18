@@ -1,0 +1,1 @@
+REGEXP: str = r'^[\w\.-]+@([\w\-]+|\.)+[A-Z0-9]{2,4}(?x)\x0g\#\p{Alpha}\1(?#comment).*\Q...\E$# end-of-line comment'

@@ -83,8 +83,17 @@ C/C++:
   --color-cpp-defs: "#371f80"
 
 C#:
-  --color-escape-character-2: "#295299"
-  --color-csharp-method: "#00627a"
+  --color-cs-keyword: "#0F54d6"
+  --color-cs-type: "#6b2fba"
+  --color-cs-comment: "#248700"
+  --color-cs-tag: "#8Bc775"
+  --color-cs-attribute-value: "#8c6c41"
+  --color-cs-delegate: "#300073"
+  --color-cs-event: "#ab2f6b"
+  --color-cs-field: "#0093a1"
+  --color-cs-method: "#00855f"
+  --color-cs-number: "#ab2f6b"
+  --color-cs-escaped-character: "#941290"
 
 CMake:
   --color-cmake-command: "#00627a"
